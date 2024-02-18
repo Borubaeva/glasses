@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    font-family: ;
+} */
+.conteiner{
+    width: 1300px;
+    margin: 0 auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.brand-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+.brand-text{
+    width: 470px;
+    justify-content: space-between;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+p{
+    font-size: 20px;
+    font-weight: 400; 
+}
+footer{
+    background-color: lightslategray;
+}
+.yes{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.brr{
+    display: flex;
+}
+.krewe{
+    display: flex;
+}
+.modern{
+    display: flex;
+    margin-top: 45px;
+}
+.yes h2{
+    font-size: 69px;
+    font-weight: 400;
+}
+.yes h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.brand-text{
+    margin: 0 80px;
+}
+.bran-text h1{
+    margin-bottom: 20px;
+}
+.brand-img{
+    margin-right: 200px;
+}
+
+
+
+footer{
+    margin-top: 150px;
+}
