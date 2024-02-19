@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,81 @@
 body{
     font-family: Roboto;
 }
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.photo{
+    margin-top: 6rem;
+    margin-left: 44rem;
 
+}
+.yazi{
+    position: absolute;
+    margin-left: 32rem;
+    margin-top: -13rem;
+    transform: translate(-38%, -50%);
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: -7rem;
+    margin-left: 13rem;
+}
+.strelka{
+    /* margin-left: 25rem;
+    margin-top: -40rem; */
+    transform: translate(790%, -130%);
+}
+.sec-2{
+    margin-top: 20rem;
+    display: flex;
+}
+.w-photo{
+    position: absolute;
+    margin-top: 501px;
+    transform: translate(-100%, -20%);
+}
+/* .m-photo{
+    position: absolute;
+    margin-top: 501px;
+    transform: translate(176%, -637%);
+} */
+.woman{
+    background: url('./image/woman.png') no-repeat;
+    width: 700px;
+    height: 700px;
+}
+.man{
+    background: url('./image/man.png') no-repeat;
+    width: 700px;
+    height: 700px;
+    margin-left: 43.7rem;
+    margin-top: -43.8rem;
+}
+.btn-w{
+    width: 280px;
+    height: 110px;
+    top: 510px;
+    left: 440px;
+    font-size: 18px;
+    background: #FFBCBC;
+    border: none;
+    margin-top: 31.9rem;
+    margin-left: 26.2rem;
+}
+.btn-m{
+    width: 280px;
+    height: 110px;
+    top: 510px;
+    left: 440px;
+    font-size: 18px;
+    background: #FFBCBC;
+    border: none;
+    margin-top: 31.9rem;
+    margin-left: 26.3rem;
+}
 
 .container{
     width: 1300px;
