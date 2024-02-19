@@ -3,9 +3,99 @@
     margin: 0;
     padding: 0;
 }
-/* body{
-    font-family: ;
-} */
+body{
+    font-family: Roboto;
+}
+
+
+.container{
+    width: 1300px;
+
+   margin: 0 auto;
+
+   }
+   .cards{
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   .card-text{
+       color: rgba(0, 0, 0, 1);
+       text-align: center;
+   }
+   
+   h1{
+   width: 420px;
+ 
+   }
+   
+   
+    #newInStock p{
+       font-size: 17px;
+       font-weight: 400;
+        text-align: right;
+    }
+   
+   #root{
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   #Bestsellers{
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   #photo {
+   width: 1300px;
+   height: 600px;
+   margin: 30px;
+   display: flex;
+       justify-content: space-between;
+   
+   }
+   
+   
+   .blue-text{
+       width: 800px;
+       padding-left: 50px;
+   
+   background-color: rgba(170, 186, 208, 1);
+   
+   }
+   .text{
+    margin-top: 265px;
+   }
+   
+   .text h5{
+    width: 42px;
+   height: 31px;
+   font-family: Roboto;
+   font-size: 19px;
+   font-weight: 400;
+   line-height: 31px;
+   letter-spacing: 0em;
+   text-align: left;
+   
+   }
+   
+   .text h4{
+       font-family: Roboto;
+       font-size: 70px;
+       font-weight: 400;
+       line-height: 109px;
+       letter-spacing: 0em;
+       text-align: left;
+       
+   
+   }
+   
+
+   #image{
+       display: flex;
+       justify-content: space-between;
+   }
+   
 .conteiner{
     width: 1300px;
     margin: 0 auto;
@@ -13,6 +103,7 @@
 .hero{
     display: flex;
     justify-content: space-between;
+    margin-top: 190px;
 }
 .brand-info{
     display: flex;
