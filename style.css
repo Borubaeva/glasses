@@ -7,6 +7,11 @@
 body{
     font-family: Roboto;
 }
+.header button{ 
+    width: 183px; 
+    height: 81px; 
+    font-size: 22px; 
+}
 .container{
     width: 1300px;
     margin: 0 auto;
